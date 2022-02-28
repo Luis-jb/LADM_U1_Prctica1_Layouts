@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="168dp"
+        android:src="@drawable/icono7"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="BIENVENIDO"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACERCA DE..."
+        android:id="@+id/acercade"
+        android:layout_gravity="bottom|center"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="80dp"
+        android:layout_marginBottom="180dp"/>
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LADM_U1_ Práctica1_ Layouts</string>
+    <array name="opcionesmenu">
+        <item>Imaguen</item>
+        <item>Alumno</item>
+        <item>Salir</item>
+    </array>
+</resources>
